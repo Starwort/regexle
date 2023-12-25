@@ -30,10 +30,10 @@ export default function RegexEntry(props: RegexEntryProps) {
                         fontFamily: "'Source Code Pro', 'Courier New', 'Lucida Console', Courier, monospace",
                         p: 1,
                     },
-                }}
+                } as any}
                 width={22 * Math.max(regex().length, 1) + 16}
                 value={regex()}
-                onChange={(e) => setRegex(e.currentTarget.value)}
+                onChange={(e: any) => setRegex(e.currentTarget.value)}
                 onKeyDown={key => {
                     if (key.key == 'Enter') {
                         props.onComplete(regex());
