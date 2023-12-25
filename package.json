@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@solid-primitives/keyed": "^1.2.0",
     "@suid/icons-material": "^0.6.11",
     "@suid/material": "^0.15.1",
     "solid-js": "^1.8.7"

@@ -31,7 +31,7 @@ export default function RegexEntry(props: RegexEntryProps) {
                         p: 1,
                     },
                 }}
-                width={24 * regex().length + 30}
+                width={22 * Math.max(regex().length, 1) + 16}
                 value={regex()}
                 onChange={(e) => setRegex(e.currentTarget.value)}
                 onKeyDown={key => {
