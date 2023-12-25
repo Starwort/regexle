@@ -32,11 +32,11 @@ function App() {
                     <div style={{
                         opacity: 0,
                         'pointer-events': 'none',
-                    }}><IconButton size="large" >.</IconButton></div>
+                    }}><IconButton size="large" ><HelpIcon /></IconButton></div>
                     <div style={{
                         opacity: 0,
                         'pointer-events': 'none',
-                    }}><IconButton size="large" >.</IconButton></div>
+                    }}><IconButton size="large" ><HelpIcon /></IconButton></div>
                     <Typography
                         sx={{
                             textAlign: 'center',
